@@ -1,0 +1,45 @@
+body {
+    font-family: 'Courier New'; 
+}
+
+.heading {
+    text-align: center;
+    font-size: 35px;
+}
+table {
+    padding: 3px;
+    border: 1px solid black;
+
+}
+
+tr, td {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;;
+    border: 0.5px solid black;
+    opacity: 0.8;
+}
+
+h4 {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    transition: transform .2s;
+}
+
+p {
+    font-size: 15px;
+}
+
+#img:hover {
+    color: white;
+    background-color: black;
+    opacity: 1;
+    transition-duration: 1s;
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
